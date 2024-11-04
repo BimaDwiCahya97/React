@@ -6,11 +6,11 @@ const Banner = () => {
 
     <div className={styles.backgroundContainer}>
     <Button> ini tombol bootstrap</Button>
-    <div className={styles.bgColor}>banner1</div>
+    <br />
+    <div className={styles.bgColor} style={{marginBottom : "20px", marginTop: "20px", display: "inline-block"}}>banner1</div>
     <div>banner2</div>
 
     </div>
-
     );
 }
 export  default Banner
