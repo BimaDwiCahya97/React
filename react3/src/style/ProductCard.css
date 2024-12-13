@@ -1,0 +1,8 @@
+.kotak{
+    width: 150px;
+    height: 150px;
+    background-color: red;
+    border-radius: 20px;
+    display: grid;
+    place-items: center;
+}

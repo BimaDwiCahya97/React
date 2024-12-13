@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import './App.css'
 import Deskripsi from './components/Deskripsi'
 
@@ -17,7 +17,9 @@ function App() {
     const prevArray = [...arrayCopy, stringCopy]
     setArrayCopy(prevArray)
   }
-  const dltArray = ()=>{arrayCopy.pop()}
+  const dltArray = () => {
+    useEffect (()=>{arrayCopy.pop()},[])
+  } 
   return (
     <>
       <div className="card">
